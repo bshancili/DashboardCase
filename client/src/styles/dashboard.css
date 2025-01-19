@@ -1,0 +1,43 @@
+.dashboard {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sales-number,
+.orders-number {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.sales-change,
+.orders-change {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #555;
+  margin-top: 12px;
+}
+
+.sales-change span,
+.orders-change span {
+  display: inline;
+}
+
+.sales-change span.green,
+.orders-change span.green {
+  color: green;
+}
+
+.sales-change span.red,
+.orders-change span.red {
+  color: red;
+}

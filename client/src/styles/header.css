@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.header-controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.selected-vendor-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.selected-month {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.vendor-data {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.vendor-picker {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold !important;
+  border-radius: 8px;
+  background-color: white;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#month-picker {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: white;
+  color: #333;
+  border: 1px solid #000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#month-picker:hover,
+.vendor-picker:hover {
+  background-color: #f0f0f0;
+}
+
+#month-picker:active,
+.vendor-picker:active {
+  background-color: #e0e0e0;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.MuiDialogContent-root button {
+  margin-bottom: 12px;
+  padding: 12px;
+  font-weight: 600;
+  color: #333;
+  border-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.MuiDialogContent-root button:hover {
+  background-color: #f5f5f5;
+}

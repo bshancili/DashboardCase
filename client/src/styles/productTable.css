@@ -1,0 +1,26 @@
+.product-table-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.product-table-container h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.MuiTableCell-root {
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.MuiTablePagination-root {
+  justify-content: flex-end;
+}
